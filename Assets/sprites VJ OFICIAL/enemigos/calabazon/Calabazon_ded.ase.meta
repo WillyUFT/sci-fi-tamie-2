@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Calabazon_ded_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.05}
+    pivot: {x: 0.5, y: -0.055555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -131,8 +131,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 48
-      height: 60
-    spriteID: 6865db9be77129e44851f0419c1525bc
+      height: 54
+    spriteID: 685966f5d80a7fc4db82fedcd12808fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -143,36 +143,16 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 1}
   - name: Calabazon_ded_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 72
-      width: 48
-      height: 54
-    spriteID: d0cdc2f49bc86c04e8939ebf265ddf9b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 69}
-  - name: Calabazon_ded_Frame_2
-    originalName: 
     pivot: {x: 0.5, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 134
+      y: 66
       width: 48
       height: 42
-    spriteID: b6739519d10defe468ae197425af8028
+    spriteID: 23b1f2b70a2528b4f93051bf9d99f298
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,8 +160,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 131}
-  - name: Calabazon_ded_Frame_3
+    uvTransform: {x: 4, y: 63}
+  - name: Calabazon_ded_Frame_2
     originalName: 
     pivot: {x: 0.5, y: -0.1}
     alignment: 9
@@ -189,10 +169,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 184
+      y: 116
       width: 48
       height: 30
-    spriteID: 90b547cbf714b3c4da1f81253e6b3e45
+    spriteID: 7337aec21d5d4dd47827420ee9c8ea61
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,7 +180,27 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 181}
+    uvTransform: {x: 4, y: 113}
+  - name: Calabazon_ded_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 154
+      width: 48
+      height: 21
+    spriteID: c503e0305b58ff64d833493aff0ae86a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 151}
   - name: Calabazon_ded_Frame_4
     originalName: 
     pivot: {x: 0.5, y: -0.14285715}
@@ -209,10 +209,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 222
+      y: 183
       width: 48
       height: 21
-    spriteID: 1107b1b8c09fd65479147495c819283a
+    spriteID: 0790875d00ab56745bb021d586096936
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,8 +220,48 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 219}
+    uvTransform: {x: 4, y: 180}
   - name: Calabazon_ded_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 48
+      height: 21
+    spriteID: 5bd3bb59281d311419a8c52f032fb7de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: Calabazon_ded_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 33
+      width: 48
+      height: 18
+    spriteID: 6c51a5dae2de2ce4f8c6093635edfbd3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 33}
+  - name: Calabazon_ded_Frame_7
     originalName: 
     pivot: {x: 0.5, y: -0.14285715}
     alignment: 9
@@ -232,7 +272,7 @@ ScriptedImporter:
       y: 4
       width: 48
       height: 21
-    spriteID: 0897fa081f2863447aa6fe0babd82799
+    spriteID: 0cbfd109cfb82e44a9d5441da2363c37
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,7 +280,27 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 1}
+    uvTransform: {x: 60, y: 4}
+  - name: Calabazon_ded_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 59
+      width: 30
+      height: 21
+    spriteID: ca4441a4caca4ad4e8688492bf24758a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 59}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -258,7 +318,7 @@ ScriptedImporter:
         y: 0
         width: 48
         height: 78
-      spriteId: 6865db9be77129e44851f0419c1525bc
+      spriteId: 685966f5d80a7fc4db82fedcd12808fd
     - name: Calabazon_ded_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -267,7 +327,7 @@ ScriptedImporter:
         y: 0
         width: 48
         height: 78
-      spriteId: d0cdc2f49bc86c04e8939ebf265ddf9b
+      spriteId: 23b1f2b70a2528b4f93051bf9d99f298
     - name: Calabazon_ded_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -276,7 +336,7 @@ ScriptedImporter:
         y: 0
         width: 48
         height: 78
-      spriteId: b6739519d10defe468ae197425af8028
+      spriteId: 7337aec21d5d4dd47827420ee9c8ea61
     - name: Calabazon_ded_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -285,7 +345,7 @@ ScriptedImporter:
         y: 0
         width: 48
         height: 78
-      spriteId: 90b547cbf714b3c4da1f81253e6b3e45
+      spriteId: c503e0305b58ff64d833493aff0ae86a
     - name: Calabazon_ded_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
@@ -294,16 +354,43 @@ ScriptedImporter:
         y: 0
         width: 48
         height: 78
-      spriteId: 1107b1b8c09fd65479147495c819283a
+      spriteId: 0790875d00ab56745bb021d586096936
     - name: Calabazon_ded_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
         x: 0
-        y: 0
+        y: 3
         width: 48
-        height: 78
-      spriteId: 0897fa081f2863447aa6fe0babd82799
+        height: 21
+      spriteId: 5bd3bb59281d311419a8c52f032fb7de
+    - name: Calabazon_ded_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 6
+        width: 48
+        height: 18
+      spriteId: 6c51a5dae2de2ce4f8c6093635edfbd3
+    - name: Calabazon_ded_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 3
+        width: 48
+        height: 21
+      spriteId: 0cbfd109cfb82e44a9d5441da2363c37
+    - name: Calabazon_ded_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 3
+        width: 30
+        height: 21
+      spriteId: ca4441a4caca4ad4e8688492bf24758a
     linkedCells: []
     parentIndex: -1
   platformSettings: []
