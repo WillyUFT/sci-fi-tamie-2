@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d6fc91cf2cdeaf42a2845fb04277876
+guid: b3a0966d5a0b330448ee0d2983ca4c63
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: ladrillo2
+  - name: ladrillocuerpo_32x32
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 48
-      height: 48
-    spriteID: fc4a4e5e142a7e74988b5b5e68694830
+      width: 32
+      height: 32
+    spriteID: 1d32aab816e5b554a843a8b9ec729cce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,25 +144,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1328490407
-    name: ladrillo2
+    guid: 2119685380
+    name: ladrillocuerpo_32x32
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: ladrillo2
+    - name: ladrillocuerpo_32x32
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 48
-        height: 48
-      spriteId: fc4a4e5e142a7e74988b5b5e68694830
+        width: 32
+        height: 32
+      spriteId: 1d32aab816e5b554a843a8b9ec729cce
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 48, y: 48}
+  canvasSize: {x: 32, y: 32}
