@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Colision Moneda
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Objetivo","label":null,"summary":null,"hideLabel":false},{"key":"Otro","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"Tag","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"UnityEngine.GameObject","key":"Objeto","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":142.0,"y":94.5},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-246.0,"y":-58.0},"guid":"c0f48708-8078-477c-b9e5-4f9d0891f41a","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter2D","$id":"13"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Player","$type":"System.String"}},"position":{"x":117.0,"y":86.0},"guid":"4ac9c4cb-2500-4d7f-9b50-df8c8c9d6a01","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"defaultValues":{},"position":{"x":387.0,"y":-67.0},"guid":"bc853bd0-6c4c-470b-9e79-ca226e907404","$version":"A","$type":"Unity.VisualScripting.If","$id":"19"},{"defaultValues":{},"position":{"x":-176.0,"y":160.0},"guid":"71c26fb4-f543-4f4b-bc9a-ce96a571e79c","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"21"},{"defaultValues":{},"position":{"x":600.0,"y":10.0},"guid":"046dbb14-7a3e-43b1-b35b-dfe21006144b","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"23"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"819c8c0d-9eab-4287-aabc-b61ba363e405","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"23"},"destinationKey":"Otro","guid":"550ab11d-ae8b-43dc-87b6-356736f44a34","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"23"},"destinationKey":"Objetivo","guid":"9b9b5a8e-a7e8-4cef-8224-d8864dd059d0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"collider","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"1ae1cac7-cd49-4e4a-af23-8d849dc2cf7c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"result","destinationUnit":{"$ref":"19"},"destinationKey":"condition","guid":"167525ef-2cb9-42b8-b046-f76730c16fc1","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"Tag","destinationUnit":{"$ref":"15"},"destinationKey":"%tag","guid":"84656658-5ea4-4c4e-bd3c-8ed82714ff44","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
