@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 8940101353008696328}
   - component: {fileID: 8207013195095461189}
   - component: {fileID: -1504526262141383779}
+  - component: {fileID: 3798140184873669592}
   m_Layer: 3
   m_Name: Player 1
   m_TagString: Player
@@ -171,7 +172,7 @@ SpriteRenderer:
   m_SortingLayerID: 1400674449
   m_SortingLayer: 1
   m_SortingOrder: 4
-  m_Sprite: {fileID: 6494942252266586623, guid: 9ccbcf54c5196c542b525ded62d925fb, type: 3}
+  m_Sprite: {fileID: -3694682102194811011, guid: 8977b70290b67f54fabb7d3eebd7ca53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -241,18 +242,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.34499997}
+  m_Offset: {x: 0.0056690127, y: 0.2684683}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: -0.047619052}
-    oldSize: {x: 0.42, y: 0.63}
+    pivot: {x: 0.5, y: -0.041666668}
+    oldSize: {x: 0.28, y: 0.48}
     newSize: {x: 0.42, y: 0.63}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.42, y: 0.63}
+  m_Size: {x: 0.28394398, y: 0.47693664}
   m_EdgeRadius: 0
 --- !u!95 &8940101353008696328
 Animator:
@@ -304,9 +305,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Jump","value":{"$content":9.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TieneLLave","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"vida","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &3798140184873669592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8167306637634507729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: aee7f85bcea4fcb40a1bbc0ed4d8ed84, type: 2}
