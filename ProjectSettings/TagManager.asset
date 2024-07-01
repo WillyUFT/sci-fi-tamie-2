@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Llave
   - Enemigo
+  - AudioManager
   layers:
   - Default
   - TransparentFX

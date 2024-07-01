@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Play audio
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"PlayAudio","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Salida","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.AudioClip","key":"AudioClip","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":606.0,"y":84.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-94.0,"y":-38.0},"guid":"5361d505-062e-45bd-a31f-962f5bf5d346","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"chainable":false,"member":{"name":"clip","parameterTypes":null,"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"input":null},"position":{"x":156.0,"y":-152.0},"guid":"d8caca58-b844-449f-b5a7-94e2cfad0e4b","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"14"},{"chainable":false,"parameterNames":[],"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":482.0,"y":-172.0},"guid":"c57f0e06-1baa-472d-8599-817579f0441b","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"defaultValues":{},"position":{"x":774.0,"y":-92.0},"guid":"84553e62-4e9f-4bc8-818d-f51ba6809542","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"21"},{"sourceUnit":{"$ref":"14"},"sourceKey":"assigned","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"a93c5a02-911d-4c09-82bf-9dad16ae713d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"PlayAudio","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"49ce90cc-e1e5-4f5a-a587-f63757150a4d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"21"},"destinationKey":"Salida","guid":"3bf00933-6bc0-4dff-a183-a90531fd18bf","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"AudioClip","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"e323295a-e5bc-44c7-8c6f-7dac81df9c56","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
