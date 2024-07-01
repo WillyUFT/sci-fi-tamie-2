@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - player
+  - Player
   - Water
   - UI
   - background
@@ -17,9 +17,9 @@ TagManager:
   - trampas
   - Egg_coin
   - estetica
-  - 
-  - 
-  - 
+  - Enemigos
+  - Proyectil
+  - Playerinvencible
   - 
   - 
   - 

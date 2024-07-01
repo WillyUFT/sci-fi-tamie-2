@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 444748fd82e9cdb4a826842692f4b123
+guid: 2c1dd9cff36dcb54ea2717ca52a74ff7
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Tamie_Run_Frame_0
+  - name: HUD_Corazon_Vacio
     originalName: 
-    pivot: {x: 0.5, y: -0.041666668}
+    pivot: {x: 0.5, y: -0.27272728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 28
-      height: 48
-    spriteID: 15c0e08ec0b239f46a19dd736b2cb7c6
+      width: 112
+      height: 88
+    spriteID: 25ef7772bfba53f47aea8132c5a730b2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,115 +141,28 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Tamie_Run_Frame_1
-    originalName: 
-    pivot: {x: 0.5, y: -0.04347826}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 76
-      y: 4
-      width: 28
-      height: 46
-    spriteID: 7e1d5660c5d51ea43aa2f001456acab4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 76, y: 4}
-  - name: Tamie_Run_Frame_2
-    originalName: 
-    pivot: {x: 0.5, y: -0.041666668}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 40
-      y: 4
-      width: 28
-      height: 48
-    spriteID: 56a40db4b180eb74db6cf31f1c547d5f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 40, y: 4}
-  - name: Tamie_Run_Frame_3
-    originalName: 
-    pivot: {x: 0.5, y: -0.04347826}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 60
-      width: 28
-      height: 46
-    spriteID: 7870dd7a082e7bb49a45a1b49218a9eb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 60}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 296073320
-    name: Tamie_Run
+    guid: 1262541015
+    name: HUD_Corazon_Vacio
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Tamie_Run_Frame_0
+    - name: HUD_Corazon_Vacio
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 18
-        y: 2
-        width: 28
-        height: 48
-      spriteId: 15c0e08ec0b239f46a19dd736b2cb7c6
-    - name: Tamie_Run_Frame_1
-      frameIndex: 1
-      additiveSortOrder: 0
-      cellRect:
-        x: 18
-        y: 2
-        width: 28
-        height: 46
-      spriteId: 7e1d5660c5d51ea43aa2f001456acab4
-    - name: Tamie_Run_Frame_2
-      frameIndex: 2
-      additiveSortOrder: 0
-      cellRect:
-        x: 18
-        y: 2
-        width: 28
-        height: 48
-      spriteId: 56a40db4b180eb74db6cf31f1c547d5f
-    - name: Tamie_Run_Frame_3
-      frameIndex: 3
-      additiveSortOrder: 0
-      cellRect:
-        x: 18
-        y: 2
-        width: 28
-        height: 46
-      spriteId: 7870dd7a082e7bb49a45a1b49218a9eb
+        x: 8
+        y: 24
+        width: 112
+        height: 88
+      spriteId: 25ef7772bfba53f47aea8132c5a730b2
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 128, y: 128}
