@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3280495254044400783}
   - component: {fileID: 1496108510921890699}
   - component: {fileID: 8044781542346805737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: acid1_Frame_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9018681114452382741}
   - component: {fileID: 7755743601449427157}
   - component: {fileID: 7842979237025399025}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: techo_o_muralla
   m_TagString: Untagged
   m_Icon: {fileID: 0}
